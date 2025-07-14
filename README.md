@@ -1,6 +1,6 @@
 # TrendScan 🔍
 
-**Multi‑source company intelligence platform** – automated collection and AI‑powered analysis of company data from Crunchbase, LinkedIn, Reddit, and Twitter/X.
+**Multi‑source company intelligence platform** – automated collection and AI‑powered analysis of company data from Crunchbase, LinkedIn, and Reddit.
 
 <img src="https://github.com/brightdata/trendscan/blob/6e601160eef7759a26ba39751a495b3ce139ff81/assets/trendscan.gif" width="800" alt="TrendScan Dashboard Demo" />
 
@@ -8,7 +8,7 @@
 
 ## Features
 
-- Aggregates company and social data from Crunchbase, LinkedIn, Reddit, Twitter/X
+- Aggregates company and social data from Crunchbase, LinkedIn, and Reddit.
 - Automates web scraping via CrewAI agents and Bright Data MCP (handles JS rendering, proxy rotation, and CAPTCHAs)
 - AI-powered analysis and insight generation with Gemini models
 - Real-time visualization in a [Streamlit](https://streamlit.io/) dashboard
@@ -45,7 +45,6 @@
 | Crunchbase  | Company profiles    | Funding, team, metrics, news     | 100% MCP            |
 | LinkedIn    | Professional data   | Jobs, updates                    | Hybrid (MCP + API)  |
 | Reddit      | Public sentiment    | Discussions, opinions, reviews   | 100% MCP            |
-| Twitter/X   | Social media        | Posts, engagement, trends        | Hybrid (MCP + API)  |
 
 
 ---
