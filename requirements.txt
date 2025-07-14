@@ -1,0 +1,7 @@
+crewai-tools[mcp]
+python-dotenv
+requests
+mcpadapt
+google-genai
+streamlit
+pathlib
